@@ -11,3 +11,5 @@ function getFemales() {
 };
 
 getFemales();
+
+//used Array.filter() to return all girls/women
