@@ -12,3 +12,4 @@ function getAdults() {
 
 getAdults();
 
+//used Array.filter() to filter out adults
