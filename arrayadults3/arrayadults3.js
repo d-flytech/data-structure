@@ -1,4 +1,3 @@
-
 const Person = {
     name: ['Rob', 'Arla', 'Pam', 'Beer', 'Pippi'],
     age: [25, 15, 21, 46, 13],
@@ -12,3 +11,4 @@ function getAdults() {
 };
 
 getAdults();
+
