@@ -1,4 +1,4 @@
-const Person = [
+const personsList = [
     { name: 'Rob', age: 25, bsn: 123456, gender: 'male' },
     { name: 'Arla', age: 15, bsn: 257654, gender: 'female' },
     { name: 'Pam', age: 21, bsn: 315421, gender: 'female' },
@@ -7,7 +7,7 @@ const Person = [
 ];
 
 function findPersonByBsn(bsn) {
-    return Person.find(person => person.bsn === bsn);
+    return personsList.find(person => person.bsn === bsn);
 }
  const bsnResult = findPersonByBsn(463456);
  console.log(bsnResult);
