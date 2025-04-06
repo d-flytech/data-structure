@@ -1,13 +1,14 @@
-const Person = {
-    name: ['Rob', 'Arla', 'Pam', 'Beer', 'Pippi'],
-    age: [25, 15, 21, 46, 13],
-    bsn: [123456, 257654, 315421, 463456, 533446],
-    gender: ['male', 'female', 'female', 'x', 'female'],
-};
+const persons = [
+    { name: 'Rob', age: 25, bsn: 123456, gender: 'male' },
+    { name: 'Arla', age: 15, bsn: 257654, gender: 'female' },
+    { name: 'Pam', age: 21, bsn: 315421, gender: 'female' },
+    { name: 'Beer', age: 46, bsn: 463456, gender: 'x' },
+    { name: 'Pippi', age: 13, bsn: 533446, gender: 'female' }
+];
 
 function getFemales() {
-    let adults = Person.name.filter((_, index) => Person.gender[index] === 'female'); 
-    console.log(`${adults} are females.`)
+    let adults = persons.filter(person => person.gender === 'female').map(person => person.name); 
+    console.log(`${adults.join( ' , ')} are females.`)
 };
 
 getFemales();
