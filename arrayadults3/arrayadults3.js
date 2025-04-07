@@ -7,10 +7,10 @@ const persons = [
 ];
 
 function getAdults() {
-    let adults = persons.filter(person => person.age >= 18).map(person => person.name); 
-    console.log(`${adults.join( `, `)} are adults.`)
+    return persons.filter(person => person.age >= 18).map(person => person.name); 
 };
 
-getAdults();
+const adults = getAdults();
+console.log(`${adults.join( `, `)} are adults.`);
 
 //used Array.filter() to filter out adults
