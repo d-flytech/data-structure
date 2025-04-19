@@ -16,7 +16,7 @@ const persons: Person[] = [
     { name: 'Pippi', age: 13, bsn: 533446, gender: 'female' }
 ];
 
-function getFemales(personArray: Person[]): String[] {
+function getFemales(personArray: Person[]): string[] {
     return personArray.filter((person: Person) => person.gender === 'female').map((person: Person) => person.name);  
 };
 
