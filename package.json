@@ -1,0 +1,16 @@
+{
+  "name": "data-structure",
+  "version": "1.0.0",
+  "description": "This repository is dedicated to mastering the essentials of version control with Git, \r collaborating effectively with GitHub, and practicing JavaScript exercises \r to build strong programming skills. It serves as a structured roadmap \r for hands-on learning and experimentation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.3"
+  }
+}
