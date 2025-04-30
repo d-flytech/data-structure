@@ -1,12 +1,4 @@
-// Defines Gender as a union type; an enum could also be used in more complex scripts
-type Gender = "male" | "female" | "x";
-
-interface Person {
-    name: string;
-    age: number;
-    bsn: number;
-    gender: Gender;
-}
+import {Person} from '../types';
 
 const persons: Person[] = [
     { name: 'Rob', age: 25, bsn: 123456, gender: 'male' },
