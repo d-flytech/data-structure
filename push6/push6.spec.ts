@@ -20,7 +20,7 @@ describe("addPerson function", () => {
     });
 
     it.each([
-        { input: [], desc: "een lege array" },
+        { input: [], desc: "an empty array" },
         { input: null, desc: "null" },
         { input: undefined, desc: "undefined" }
     ])("adds new person and returns an array containing only that person when the input is null, an empty array, or undefined",
